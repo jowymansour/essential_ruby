@@ -1,8 +1,8 @@
 # Arrays
 
 # Creating Arrays
-instructors = ["Raghu", "Arjun", "Dan"]
-students = ["Jocelyn", "Arthur", "Tom", "Lindsey"]
+instructors = %w(Raghu Arjun Dan)
+students = %w(Jocelyn Arthur Tom Lindsey)
 
 # Accessing data from Arrays (use an index):
 puts "The first student is #{students[0]}."
